@@ -1,0 +1,36 @@
+//todo lo comun
+//vars
+$mainColor : #ff1493;
+$secondaryColor: hsl(0, 0%, 50%);
+$white: rgb(255, 255, 255);
+$black: black;
+
+//fonts
+
+$mainColor: 'Roboto', sans-serif;
+
+*{
+    font-family: $mainFont;
+    color: $white;
+}
+
+/* fondos */
+.bg-pink{
+    background-color: $mainColor;
+    color: $white;
+}
+h1,h2,h3{
+    color: $mainColor
+}
+
+h1{
+font-weight: 400;
+}
+
+h2{
+    font-weight: 500;
+}
+h3{
+
+    font-weight: 700;
+}
